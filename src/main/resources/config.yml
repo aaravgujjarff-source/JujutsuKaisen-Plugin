@@ -1,0 +1,34 @@
+# Jujutsu Kaisen Plugin Configuration
+plugin-version: 1.0.0
+
+# Domain Settings
+domains:
+  unlimited-void:
+    enabled: true
+    radius: 15
+    duration: 200
+    damage: 0
+    
+  malevolent-shrine:
+    enabled: true
+    radius: 20
+    duration: 200
+    damage: 4.0
+    
+  mahito-domain:
+    enabled: true
+    radius: 12
+    duration: 150
+    damage: 2.0
+    
+  jogo-domain:
+    enabled: true
+    radius: 15
+    duration: 180
+    damage: 3.0
+
+# Messages
+messages:
+  no-permission: "§cYou don't have permission to use this!"
+  reload-success: "§aPlugin configuration reloaded!"
+  domain-activated: "§aDomain Expansion activated!"
