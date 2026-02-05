@@ -1,0 +1,24 @@
+name: JujutsuKaisen
+version: 1.0.0
+main: com.jujutsu.Main
+api-version: 1.21
+author: Aarav
+description: Jujutsu Kaisen Domain Expansions Plugin - Made by Aarav
+
+commands:
+  domain:
+    description: Open domain expansion menu
+    usage: /domain
+    aliases: [domains, de]
+  jjk:
+    description: JJK admin commands
+    usage: /jjk <give|reload>
+    permission: jjk.admin
+
+permissions:
+  jjk.use:
+    description: Use JJK abilities
+    default: true
+  jjk.admin:
+    description: Admin commands
+    default: op
