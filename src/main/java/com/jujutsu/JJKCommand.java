@@ -38,8 +38,9 @@ public class JJKCommand implements CommandExecutor {
         }
         
         if (args[0].equalsIgnoreCase("reload")) {
+            // Config reload
             Main.getInstance().reloadConfig();
-            sender.sendMessage("§aPlugin reloaded!");
+            sender.sendMessage("§aPlugin configuration reloaded!");
             return true;
         }
         
@@ -47,6 +48,7 @@ public class JJKCommand implements CommandExecutor {
     }
     
     private void giveCursedTools(Player player) {
+        // Gojo's Infinity
         ItemStack infinity = new ItemStack(Material.DIAMOND_SWORD);
         ItemMeta infinityMeta = infinity.getItemMeta();
         infinityMeta.setDisplayName("§b§lInfinity");
@@ -56,6 +58,7 @@ public class JJKCommand implements CommandExecutor {
         infinityMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         infinity.setItemMeta(infinityMeta);
         
+        // Sukuna's Cleave
         ItemStack cleave = new ItemStack(Material.NETHERITE_SWORD);
         ItemMeta cleaveMeta = cleave.getItemMeta();
         cleaveMeta.setDisplayName("§c§lCleave");
