@@ -1,2 +1,2 @@
 # JujutsuKaisen-Plugin
-A Jujutsu Kaisen Plugin For Minecraft
+A Jujutsu Kaisen Plugin For Minecraft 
